@@ -25,4 +25,22 @@ Example:
 import java.uitl.*;
 import java.text.*;
 
+********************** Create an object from class *********************************
+ClassName objectName = new ClassName(arguments); // constructor
+Example:
+Scanner sc = new Scanner(System.in);
+Date now = new Date();
+
+********************** Call a method from an OBJECT ********************************
+objectName.methodName(arguments);
+Example:
+double subtotal = sc.nextDouble();
+String currentDate = now.toString();
+
+********************* call a STATIC method from a CLASS ****************************
+ClassName.methodName(arguments);
+Example:
+String priceString = Double.toString(price); // convert a double to a string
+double total = Double.parseDouble(inputStr); // convert a string to a double
+
 
