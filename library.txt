@@ -25,5 +25,15 @@ Example:
 double x = Math.random() * 100; // reuslt is a value >= 0.0 and. < 100.0
 long result = (long) x; // converts the result from double to long
 
+******************** NumberFormat class *******************************
+java.text.NumberFormat
+Static methods: getCurrencyInstance (), getPercentInstance(), getNumberInstance()  ---> return a NumberFormat object
+Methods for NumberFormat object: format(), setMinimumFractionDigit(int), setMaximumDigits(int)  --> using these methods after static methods
+Example: 
+double miles = 15341.253;
+NumberFormat number = NumberFormat.getNumberInstance();
+number.setMaximumFractionDigits(1);
+String milesString = number.format(miles);  // return 15,341.3
+
 
 
