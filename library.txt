@@ -3,3 +3,13 @@ Example:
 Scanner sc = new Scanner(System.in);
 System.out.print("Enter subtotal: "); // or System.out.println("....");
 double subtotal = sc.nextDouble();
+
+********************* String class ************************************
+In java, a string is actually a String object
+
+Types of String: string literal ("java is good for coder"), empty string (""), and null value (string str = null) -> this means that the value of the string is unknow, String variable points to nothing.
+
+Example: 
+double price = 15.9;
+String priceString = "Price: " + price;
+
