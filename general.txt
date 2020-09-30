@@ -48,4 +48,17 @@ final type CONSTANT_NAME = value;
 Example:
 final int DAY_IN_NOVEMBER = 30;
 
+********************* inplicit casting work ******************************************
+byte -> short -> int -> long -> float -> double
+Example : 
+double d = 95.0;
+int i = 86, j = 91;
+double average = (d + i + j)/3 ; // convert i and j to double values --> average = 90.6666666...
+
+********************* an explicit cast ************************************************
+(type) expression
+Example: 
+int grade = (int) 93.75; // convert double to int (grade = 93)
+
+
 
