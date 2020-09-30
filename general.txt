@@ -43,4 +43,9 @@ Example:
 String priceString = Double.toString(price); // convert a double to a string
 double total = Double.parseDouble(inputStr); // convert a string to a double
 
+******************** Declare and initialize a CONSTANT ****************************
+final type CONSTANT_NAME = value;
+Example:
+final int DAY_IN_NOVEMBER = 30;
+
 
