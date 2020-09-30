@@ -2,3 +2,9 @@
 if you compare an int value to double value, Java casts the int value to the double type
 ********** Compare two strings ***************
 To test two strings for equality, you must call one of the methods of the String object(equals(String), and equalsIgnoreCase(String)). If you use the equlity oparator, you may get unpreductable results
+
+******************** float value, long values **************
+To identify float values, you have to type an f or F after the number
+To identify long value, you can type an l or L after the number
+Example: float interestRate = 8.125F; long numberOfBytes = 200000L;
+
