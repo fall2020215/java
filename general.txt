@@ -8,3 +8,21 @@ The file name for a class is the same as the class name with .java as the extens
 ************************ Declare main() method ****************
 public static void main (String[] args) { statements }
 
+
+************************ Import a single class from a package *********************
+import packagename.ClassName;
+Example:
+import java.util.Scanner;
+import java.util.Date;
+import java.text.NumberFormat;
+
+NOTE: all classes stored in java.lang package are automatically available to all Java programs
+If we want to create an object without an import statement --> example, java.util.Scanner sc = new java.util.Scanner(System.in);
+
+********************** Import all classes in a package ****************************
+import packagename.*;
+Example:
+import java.uitl.*;
+import java.text.*;
+
+
