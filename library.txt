@@ -1,0 +1,5 @@
+********************* import java.util.Scanner **************************
+Example:
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter subtotal: "); // or System.out.println("....");
+double subtotal = sc.nextDouble();
