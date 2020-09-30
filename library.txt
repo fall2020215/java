@@ -18,5 +18,12 @@ STATIC methods:
 parseInt(stringName), parseDouble(stringName) --> convert string to int or double
 toString(intName), toString(doubleName) --> convert int or double to string
 
+********************* Math class *************************************
+java.lang.Math
+Static mathods: round(number), pow(number,power), sqrt(number), max(a,b), min(a, b), and random()
+Example:
+double x = Math.random() * 100; // reuslt is a value >= 0.0 and. < 100.0
+long result = (long) x; // converts the result from double to long
+
 
 
