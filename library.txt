@@ -35,5 +35,9 @@ NumberFormat number = NumberFormat.getNumberInstance();
 number.setMaximumFractionDigits(1);
 String milesString = number.format(miles);  // return 15,341.3
 
+********************* BigDecimal class, RoundingMode enumeration ********************************
+java.math.BigDecumal
+java.math.RoundingMode
+
 
 
