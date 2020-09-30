@@ -1,0 +1,2 @@
+*********************** token ********************
+Each entry that a user makes is called a token. A user can enter two or more tokens by separating them with whitespace, which consists of one or more spaces, tab character, or return characters.
