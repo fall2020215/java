@@ -14,3 +14,6 @@ int i = 4;
 double d = 4.5;
 i += d; // i = 8 (4.5 is cast to the int type)
 
+****************** switch statement ************************
+Starting with Java 7, the switch statement can also be used with string expression. Then, the switch statement uses the equals() method of the String object to compare the strings. As a result, the strings in switch statements are case-sensitive.
+
