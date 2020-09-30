@@ -1,0 +1,10 @@
+*********************** Declare a class ***********************
+public | private class ClassName { statements }
+
+NOTE: 
+public | private: access modifiers
+The file name for a class is the same as the class name with .java as the extension
+
+************************ Declare main() method ****************
+public static void main (String[] args) { statements }
+
