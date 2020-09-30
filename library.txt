@@ -13,3 +13,10 @@ Example:
 double price = 15.9;
 String priceString = "Price: " + price;
 
+*********************** Integer class and Double class ****************
+STATIC methods:
+parseInt(stringName), parseDouble(stringName) --> convert string to int or double
+toString(intName), toString(doubleName) --> convert int or double to string
+
+
+
