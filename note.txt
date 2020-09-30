@@ -1,0 +1,4 @@
+********* Compare int value to double value *************
+if you compare an int value to double value, Java casts the int value to the double type
+********** Compare two strings ***************
+To test two strings for equality, you must call one of the methods of the String object(equals(String), and equalsIgnoreCase(String)). If you use the equlity oparator, you may get unpreductable results
