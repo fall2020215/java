@@ -16,12 +16,45 @@ String priceString = "Price: " + price;
 
 METHOD:
 charAt​(int index) --> char: Returns the char value at the specified index.
+
 compareTo​(String anotherString) --> int: Compares two strings lexicographically // 0: if it is equal, otherwise -1
+
 compareToIgnoreCase​(String str) --> int: Compares two strings lexicographically, ignoring case differences. // 0: if it is equal, otherwise -1
+
 contains​(CharSequence s) --> boolean: Returns true if and only if this string contains the specified sequence of char values.
+
 endsWith​(String suffix) --> boolean: Tests if this string ends with the specified suffix.
+
 equals​(Object anObject) --> boolean: Compares this string to the specified object.
+
 equalsIgnoreCase​(String anotherString) --> boolean: Compares this String to another String, ignoring case considerations.
+
+hashCode​() --> int: Returns a hash code for this string.
+
+indexOf​(int ch) --> int: Returns the index within this string of the first occurrence of the specified character.
+
+indexOf​(int ch, int fromIndex) --> int Returns the index within this string of the first occurrence of the specified character, starting the search at the specified index.
+
+indexOf​(String str) --> int Returns the index within this string of the first occurrence of the specified substring.
+
+indexOf​(String str, int fromIndex) --> int Returns the index within this string of the first occurrence of the specified substring, starting at the specified index.
+
+isEmpty​() --> boolean: Returns true if, and only if, length() is 0.
+
+lastIndexOf​(int ch): --> int: Returns the index within this string of the last occurrence of the specified character.
+
+lastIndexOf​(int ch, int fromIndex): --> int: Returns the index within this string of the last occurrence of the specified character, searching backward starting at the specified index.
+
+lastIndexOf​(String str): --> int: Returns the index within this string of the last occurrence of the specified substring.
+
+lastIndexOf​(String str, int fromIndex): --> int: Returns the index within this string of the last occurrence of the specified substring, searching backward starting at the specified index.
+
+length​() --> int: Returns the length of this string.
+
+matches​(String regex): --> boolean:  Tells whether or not this string matches the given regular expression.
+
+
+
 
 
 
