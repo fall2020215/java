@@ -13,6 +13,18 @@ Example:
 double price = 15.9;
 String priceString = "Price: " + price;
 
+
+METHOD:
+charAt​(int index) --> char: Returns the char value at the specified index.
+compareTo​(String anotherString) --> int: Compares two strings lexicographically // 0: if it is equal, otherwise -1
+compareToIgnoreCase​(String str) --> int: Compares two strings lexicographically, ignoring case differences. // 0: if it is equal, otherwise -1
+contains​(CharSequence s) --> boolean: Returns true if and only if this string contains the specified sequence of char values.
+endsWith​(String suffix) --> boolean: Tests if this string ends with the specified suffix.
+equals​(Object anObject) --> boolean: Compares this string to the specified object.
+equalsIgnoreCase​(String anotherString) --> boolean: Compares this String to another String, ignoring case considerations.
+
+
+
 *********************** Integer class and Double class ****************
 STATIC methods:
 parseInt(stringName), parseDouble(stringName) --> convert string to int or double
