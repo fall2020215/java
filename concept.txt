@@ -7,3 +7,9 @@ Any variables that are declared within a block have block scope, so they can onl
 ********************** identity and state of an instance of a class ************************
 Once an instance of a class is created, it has an identity and state. An object's identity is its address in internal memory, wthich is always unique. An 
 object's state refers to the values that are stored by the object. As a program executes, the state of an object may change, bu the identity of the object won't
+
+********************** Javabean **********************************************
+A class that satisfies three rules: 
++ it includes a constructor that requires no arguments
++ all of the instance variables (field == data == instance variable + constant) are private
++ it includes get and set methods for all instance variables that we want to be able to access
