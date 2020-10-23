@@ -72,6 +72,17 @@ from another class (only when access modify is public), we don't need create a n
 ********************** Signature ******************************************************
 The name of a method along with its parameter list form the signature of the method, which must be uniqe
 
+************************ ENCAPSULATION **************************************************
+Example: the getCode() method returns the value stored in the code field(data), and the setCode() method assigns a new value to the code field (code field is private)
+--> This illustrates the concept of encapsulation.
+---> The programer can HIDE, or encapsulate, some fields and methods of a class, while exposing others --> We use public | private.
+Encapsulation lets us think of it as a black box that provides useful fields (data) and methods --> Example, when we use the parseInt() method of the Integer class
+, we don't need to know how the method converts a string to an integer, and we don't need to know.
+
+NOTE: access modify (public | private | protect) is encapsulation
+
+
+
 
 
 
