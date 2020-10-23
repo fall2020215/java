@@ -60,5 +60,18 @@ double average = (d + i + j)/3 ; // convert i and j to double values --> average
 Example: 
 int grade = (int) 93.75; // convert double to int (grade = 93)
 
+********************** Syntax for a static method *************************************
+public | private static returnType methodName([parameterList]) {}
+
+********************** Syntax for calling a static method that is in THE SAME CLASS **********
+methodName([argumentList])
+
+NOTE: when calling a static method, if we call it with the same class, we don't need the nameClass. If we call it
+from another class (only when access modify is public), we don't need create a new object, just use the nameClass.
+
+********************** Signature ******************************************************
+The name of a method along with its parameter list form the signature of the method, which must be uniqe
+
+
 
 
