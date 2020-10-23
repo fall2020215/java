@@ -81,6 +81,18 @@ Encapsulation lets us think of it as a black box that provides useful fields (da
 
 NOTE: access modify (public | private | protect) is encapsulation
 
+************************************ Syntax for declaring instance variables ***********************
+public|private primitiveType|ClassName variableName;
+
+Example:
+private double price; // primitiveType
+private int quantity; // primitiveType
+private String code; // ClassName
+private Product product; // ClassName
+
+NOTE: we can declare the instance variables for a class anywhere OUTSIDE the constructors and methods of the class
+
+
 
 
 
