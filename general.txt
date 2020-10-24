@@ -178,7 +178,7 @@ public Product()
  Each time the "new" keyword creates an object, Java calls the consructor for the object, which initializes the instance variables for the object.
  
  
- ******************************************* A Static Initialization Block ************************************
+ ******************************************* A Static Initialization Block (235) ************************************
  //syntax for coding a static initalization block
  
  public class className
@@ -193,6 +193,11 @@ public Product()
     // the rest of the code for the class
     
  }
+ 
+ ****************************************** Overload method (243) ********************************************************
+ When we create two or more methods with the same name but with different parameter lists, the methods are overloaded. 
+ 
+ NOTE: We only code methods with unique signatures. Therefore, we can't create two methods with the same name and parameters but different return types.
  
 
 
