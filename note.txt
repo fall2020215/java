@@ -32,6 +32,14 @@ Since "static fields" and "static methods" belong to the class, not to an object
  
  when we write a staic method, we can only use static fields and fields that are defined in the method (local variable or constant in this method). We cannot use instance variables in a static method because they belong to an instance of the class, not to the class as a whole.
  
+ When to use static method fields and methods:
+  + In general, when we need to create objects from a class, we should use regular fields and methods. That way, we can create several objects from a class, and each object has its own data in its own instance variables. Then, we can use the methods of each object to process that data.
+  + in contrast, if we just need to perform a single task like a calculation, we can use a static method. Then , we pass the arguments that the method needs, an the method returns the result that you need without wver creating an object.
+  
+*********************** when a class is loaded ******************
+A class is loaded when one of its constructors or static methods is called.
+When a class is loaded, Java initializes all static variables and constants of the class. Then, it executes all static iniitalization blocks in the order in which they appear.
+ 
  
  
 
