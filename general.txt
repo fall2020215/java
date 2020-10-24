@@ -129,6 +129,15 @@ public Product()
  If we don't code a constructor, Java will create a DEFAULT CONSTRUCTOR that doens't accept any parameters and initializes all instance variables to NULL,
  ZERO, FALSE. However, if we code a constructor that accepts parameters, Java won't create this default constructor.
  
+ 
+ ******************************************* METHOD *******************************************************
+ //declare a method
+ public|private (static) returnType methodName ([parameterList]) {}
+ 
+ NOTE:
+ To allow other classes to acces a method, use the public keyword. To prevent other classes from accessing a method, use the private keyword.
+ When we name a method, we should start each name with a verb. Example, "get" method and "set" method are typically referred to as set and get accessors.
+ 
 
 
 
