@@ -88,14 +88,17 @@ public|private (static) primitiveType|ClassName variableName;
 Example:
 private double price; // primitiveType
 private int quantity; // primitiveType
+private static int numberOfObject = 0; // pimitiveType
 private String code; // ClassName
 private Product product; // ClassName
+
+
 
 // declare a constant
 public|private (static) final primitveType|ClassName constant = ...;
 
 Example:
-private static final int MonthOfYear = 12;
+private|public static final int MonthOfYear = 12;
 
 NOTE: we can declare the instance variables for a class anywhere OUTSIDE the constructors and methods of the class
 
