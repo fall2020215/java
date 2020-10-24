@@ -134,9 +134,29 @@ public Product()
  //declare a method
  public|private (static) returnType methodName ([parameterList]) {}
  
+ //call a method
+ objectName.methodName(argumentList) (NOTE: the method withod static)
+ 
  NOTE:
  To allow other classes to acces a method, use the public keyword. To prevent other classes from accessing a method, use the private keyword.
  When we name a method, we should start each name with a verb. Example, "get" method and "set" method are typically referred to as set and get accessors.
+ 
+ ***************************************** OBJECT **********************************************************
+ //create an object
+ ClassName variableName = new ClassName (argumentList);
+ 
+ Example:
+ //No arguments
+ Product product = new Product();
+ 
+ //One literal argument
+ Product product = new Product("java");
+ 
+ //One variable argument
+ Product product = new Product(productCode);
+ 
+ NOTE:
+ Each time the "new" keyword creates an object, Java calls the consructor for the object, which initializes the instance variables for the object.
  
 
 
