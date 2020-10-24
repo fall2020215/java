@@ -92,6 +92,44 @@ private Product product; // ClassName
 
 NOTE: we can declare the instance variables for a class anywhere OUTSIDE the constructors and methods of the class
 
+*********************************** Constructor *********************************
+//declare
+public ClassName ([parameterList]} {}
+
+Example:
+//a constructor that assigns default values
+public Product()
+{
+  code = "";
+  description = "";
+  price =0.0;
+ }
+ 
+ //a custom constructor with three parameters
+ public Product (String code, String description, double price)
+ {
+    this.code = code ;
+    this.description = description;
+    this.price = price;
+ }
+ 
+ //a constructor with one parameter
+ public Product (String code)
+ {
+    this.code = code;
+    Product p = ProductDB.getProduct(code); // call a static method of a class named ProductDB to get a object Product for the specified code
+    desciption = p.getDesciption();
+    price = p.getPrice()
+ }
+ 
+ NOTE:
+ When we code a constructor, we must use the "public" access modifier and the same name, including capitalization, as the class name.
+ "this" keyword is used to refer to an instance variable of the current object
+ "Overloading" a constructor: when there are many constructors in the same class. 
+ If we don't code a constructor, Java will create a DEFAULT CONSTRUCTOR that doens't accept any parameters and initializes all instance variables to NULL,
+ ZERO, FALSE. However, if we code a constructor that accepts parameters, Java won't create this default constructor.
+ 
+
 
 
 
