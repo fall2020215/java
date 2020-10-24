@@ -17,3 +17,10 @@ i += d; // i = 8 (4.5 is cast to the int type)
 ****************** switch statement ************************
 Starting with Java 7, the switch statement can also be used with string expression. Then, the switch statement uses the equals() method of the String object to compare the strings. As a result, the strings in switch statements are case-sensitive.
 
+****************** constructor ******************************
+If we don't code a constructor, Java will create a DEFAULT CONSTRUCTOR that doens't accept any parameters and initializes all instance variables to NULL,
+ZERO, FALSE. However, if we code a constructor that accepts parameters, Java won't create this default constructor.
+
+When we code a constructor, we must use the "public" access modifier and the same name, including capitalization, as the class name.
+ 
+
