@@ -177,6 +177,23 @@ public Product()
  NOTE:
  Each time the "new" keyword creates an object, Java calls the consructor for the object, which initializes the instance variables for the object.
  
+ 
+ ******************************************* A Static Initialization Block ************************************
+ //syntax for coding a static initalization block
+ 
+ public class className
+ {
+    //any field declarations
+    
+    static
+    { 
+        // any initialization statemetns for static fields
+    }
+    
+    // the rest of the code for the class
+    
+ }
+ 
 
 
 
