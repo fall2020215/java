@@ -200,7 +200,55 @@ public Product()
  NOTE: We only code methods with unique signatures. Therefore, we can't create two methods with the same name and parameters but different return types.
  
 
+******************************************** "this" keyword (245)***************************************************************
+//refer to instance variables of the current object
+this.variableName
 
+Example:
+public Product(String code, String description, double price)
+{
+    this.code = code;
+    this.description = description;
+    this.price = price;
+}
+
+//call a constructor of the current object
+this(argumentList)
+
+Example:
+public Product()
+{
+    this("","",0.0);
+}
+
+//call a method of the current object
+this.methodName(argumentList)
+
+Example: (page 253)
+public double getTotal () 
+{
+    double total  = product.getPrice() * quantity;
+    return total;
+}
+
+public String getTotalFormatted ()
+{
+    NumberFormat currency = NumberFormat.getCurrencyInstance();
+    return current.format(this.getTotal());                        // NOTE: Java implicitly uses the this keyword for instance variables an methods
+}
+
+//pass the current object to a method
+methodName(this)
+
+Example:
+public void printCurrentObject()
+{
+    System.out.println(this);
+}
+
+
+NOTE:
+If we use "this" keyword to call one constructor from another constructor in the same class, the statement that uses the "this" keyword must be the first statement in the constructor.
 
 
 
