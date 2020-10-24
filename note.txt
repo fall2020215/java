@@ -22,5 +22,12 @@ If we don't code a constructor, Java will create a DEFAULT CONSTRUCTOR that doen
 ZERO, FALSE. However, if we code a constructor that accepts parameters, Java won't create this default constructor.
 
 When we code a constructor, we must use the "public" access modifier and the same name, including capitalization, as the class name.
+
+
+************************* static method and field *****************************
+
+Since "static fields" and "static methods" belong to the class, not to an object created from the class, they are sometimes called "class fields" and "class methods"
+ 
+ when we write a staic method, we can only use static fields and fields that are defined in the method (local variable or constant in this method). We cannot use instance variables in a static method because they belong to an instance of the class, not to the class as a whole.
  
 
