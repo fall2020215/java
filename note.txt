@@ -40,6 +40,12 @@ Since "static fields" and "static methods" belong to the class, not to an object
 A class is loaded when one of its constructors or static methods is called.
 When a class is loaded, Java initializes all static variables and constants of the class. Then, it executes all static iniitalization blocks in the order in which they appear.
  
+ ************************ Reference types compared to primitive types (241)***********************
+ When we write a method that has a primative type parameter, the parameter gets its own cpoy of the value that's passed to the method. As a result, if the method changes the value of the parameter, the change doesn't affect any variables outside the method.
+ 
+ When we code a method that has a reference type parameter, the parameter refers to the object that's passed to the method. As the result, if the method uses the parameter to change the data in the object, these changes are reflected by any other variables outside the method that refer to the same object.
+ 
+ NOTE: with referene types, the assignment statements does not store a copy of the object. Instead, it causes both variables to refer to the same object. ---> if we have multiple variables that refer to the same object, we need to be careful about changing its data. 
  
  
 
