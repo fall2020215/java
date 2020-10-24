@@ -134,10 +134,15 @@ public Product()
  
  NOTE:
  When we code a constructor, we must use the "public" access modifier and the same name, including capitalization, as the class name.
+ 
  "this" keyword is used to refer to an instance variable of the current object
+ 
  "Overloading" a constructor: when there are many constructors in the same class. 
+ 
  If we don't code a constructor, Java will create a DEFAULT CONSTRUCTOR that doens't accept any parameters and initializes all instance variables to NULL,
  ZERO, FALSE. However, if we code a constructor that accepts parameters, Java won't create this default constructor.
+ 
+ If a class doens't contain any non-static fields or methods, we don't need to code a constructor for this class.
  
  
  ******************************************* METHOD *******************************************************
