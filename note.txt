@@ -47,5 +47,8 @@ When a class is loaded, Java initializes all static variables and constants of t
  
  NOTE: with referene types, the assignment statements does not store a copy of the object. Instead, it causes both variables to refer to the same object. ---> if we have multiple variables that refer to the same object, we need to be careful about changing its data. 
  
+ ***************************************** Overload method ***************************************************
+ We only code methods with unique signatures. Therefore, we can't create two methods with the same name and parameters but different return types.
+ 
  
 
