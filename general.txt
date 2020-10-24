@@ -81,14 +81,21 @@ Encapsulation lets us think of it as a black box that provides useful fields (da
 
 NOTE: access modify (public | private | protect) is encapsulation
 
-************************************ Syntax for declaring instance variables ***********************
-public|private primitiveType|ClassName variableName;
+************************************ Instance variables and constant ***********************
+// declare an instance variable
+public|private (static) primitiveType|ClassName variableName;
 
 Example:
 private double price; // primitiveType
 private int quantity; // primitiveType
 private String code; // ClassName
 private Product product; // ClassName
+
+// declare a constant
+public|private (static) final primitveType|ClassName constant = ...;
+
+Example:
+private static final int MonthOfYear = 12;
 
 NOTE: we can declare the instance variables for a class anywhere OUTSIDE the constructors and methods of the class
 
@@ -140,6 +147,10 @@ public Product()
  NOTE:
  To allow other classes to acces a method, use the public keyword. To prevent other classes from accessing a method, use the private keyword.
  When we name a method, we should start each name with a verb. Example, "get" method and "set" method are typically referred to as set and get accessors.
+ 
+ Since "static fields" and "static methods" belong to the class, not to an object created from the class, they are sometimes called "class fields" and "class methods"
+ 
+ when we write a staic method, we can only use static fields and fields that are defined in the method (local variable or constant in this method). We cannot use instance variables in a static method because they belong to an instance of the class, not to the class as a whole.
  
  ***************************************** OBJECT **********************************************************
  //create an object
