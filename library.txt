@@ -85,4 +85,5 @@ java.math.BigDecumal
 java.math.RoundingMode
 
 
+******************** HashMap class **************************************************************
 
